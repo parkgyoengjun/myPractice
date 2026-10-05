@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: practice3
+jwt:
+  secret: sk8OuYMgyyH3Jy8aPRsJiHCEdKeaM5gaowhf7SL3miQ=
+  access-token-expiration-ms: 1800000
