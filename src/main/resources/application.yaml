@@ -4,3 +4,5 @@ spring:
 jwt:
   secret: sk8OuYMgyyH3Jy8aPRsJiHCEdKeaM5gaowhf7SL3miQ=
   access-token-expiration-ms: 1800000
+#  secret : 비밀키 - 출입증에 찍는 도장, 서버가 한개만 가지고 있음
+#  만료시각 : 토큰 수명
