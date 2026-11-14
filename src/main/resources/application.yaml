@@ -1,6 +1,12 @@
 spring:
   application:
     name: practice3
+jpa:
+  hibernate:
+    ddl-auto: create-drop
+  show-sql: true
+# show-sql : 실행되는 sql 을 콘솔에 출력, 엔티티가 어떤 테이블로 만들어지는지 확인가능
+# ddl-auto: create-drop : 서버가 시작될 때 엔티티를 기준으로 테이블을 만들고, 종료 때 지운다.
 jwt:
   secret: sk8OuYMgyyH3Jy8aPRsJiHCEdKeaM5gaowhf7SL3miQ=
   access-token-expiration-ms: 1800000
